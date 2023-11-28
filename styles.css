@@ -1,0 +1,138 @@
+body {
+    color :rgba(118, 12, 12, 0.567)
+    font-family :serif;
+    letter-spacing :0.7px;
+    word-spacing :  1px;
+    font-size :100%;
+    max-width : 90%;
+    margin : auto;
+    background: linear-gradient(90deg, rgb(151, 255, 133), rgb(255, 155, 155));
+    background-image :url("https://i.stack.imgur.com/jGlzr.png");
+    background-repeat : no-repeat;
+    background-size : cover;
+    background-position : bottom right;
+    text-align:justify;
+}
+
+li:nth-child(1) {
+    background-image : url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-3/main/Assets/bien.png?token=GHSAT0AAAAAACKS5CUHX22LRUTKROH2XA4YZLF2RBQ");
+    background-repeat :no-repeat;
+    background-position : right;
+    background-size : contain;
+    padding-right : 20px;
+}
+
+li:nth-child(2) {
+    background-image : url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-3/main/Assets/mal.png?token=GHSAT0AAAAAACKS5CUH43ITUVIJCOPRRMVGZLF2UXA");
+    background-repeat :no-repeat;
+    background-position : right;
+    background-size : contain;
+    padding-right : 20px;
+}
+
+li:nth-child(3) {
+    background-image : url("https://raw.githubusercontent.com/becodeorg/CRL-Wilson-3/main/Assets/chat.png?token=GHSAT0AAAAAACKS5CUGOJZ5JAWC7DDHE57YZLF2VSQ");
+    background-repeat :no-repeat;
+    background-position : right;
+    background-size : contain;
+    padding-right : 20px;
+}
+
+a {
+    text-decoration : none;
+    color :rgb(92, 222, 196);
+    background-color : rgb(197, 145, 245);
+}
+
+a:hover,  a:visited:hover {
+    background-color : yellow;
+}
+
+a:visited {
+    background-color : firebrick;
+}
+
+.list {
+    border:10px solid black;
+    max-width :fit-content;
+    margin: 2px 5px 40px 5px;
+}
+
+p {
+    border : 4px dotted gray;
+    max-width: fit-content;
+    margin : 2px 5px 40px 5px;
+}
+
+table {
+    border : 10px solid rgb(0, 0, 0);
+    margin : auto;
+    margin-bottom: 40px;
+}
+
+th {
+    border : 20px solid purple;
+    background-color : nth-child(n+1) grey;
+}
+
+tr:nth-child(even) {
+    background-color : grey;
+}
+
+tr:nth-child(odd) {
+    background-color : lightgray;
+}
+
+blockquote {
+    border : 7px double orange;
+    max-width : 50%;
+    padding : 40px;
+    margin: auto;
+    font-size : 160%;
+    
+}
+
+.good, .bad {
+    text-transform: capitalize;
+}
+
+.good {
+    color : green;
+}
+
+.bad {
+    color : red;
+}
+
+q {
+    background-color: lightgray;
+    border-left : 3px solid firebrick;
+    font-style: italic;
+}
+
+.villagers {
+    border-left : 10px solid orange;
+}
+
+.farmer {
+    border-left : 10px solid rgb(96, 207, 244);
+}
+
+h3 {
+    background-color : lightgray;
+}
+
+h2 {
+    border : 7px dashed gray;
+}
+
+h1 {
+    border : 10px outset rgb(114, 146, 58);
+    background-color : rgb(195, 195, 35) ;
+}
+
+img {
+    display:block;
+    margin:auto;
+    max-width: 80%;
+}
