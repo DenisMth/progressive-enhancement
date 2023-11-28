@@ -136,3 +136,10 @@ img {
     margin:auto;
     max-width: 80%;
 }
+
+.notification {
+    background-color:blueviolet;
+    position:fixed;
+    right :0;
+    bottom:0;
+}
